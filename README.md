@@ -1,4 +1,4 @@
-# 🤖 AI Slop Detector
+# AI Slop Detector
 
 > A end-to-end machine learning pipeline to detect AI-generated text — from data collection to a fine-tuned BERT classifier.
 
@@ -25,7 +25,7 @@ AI Slop Detector is a binary text classifier that distinguishes between **human-
 
 ---
 
-## 📦 Data
+## Data
 
 ### Human-Written Text
 
@@ -56,7 +56,7 @@ The final paired dataset (human + AI paragraphs) is publicly available:
 
 ---
 
-## 🧠 Model
+##  Model
 
 The classifier is a **LoRA adapter** of [`bert-base-cased`](https://huggingface.co/bert-base-cased) with a binary classification head, trained using the HuggingFace `transformers` and `peft` libraries.
 
