@@ -4,13 +4,13 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 AI Slop Detector is a binary text classifier that distinguishes between **human-written** and **AI-generated** text. It is built as a LoRA adapter on top of `bert-base-cased` and achieves **96% validation accuracy** on a dataset of Wikipedia paragraphs and their AI-generated rewrites.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -51,7 +51,7 @@ Each Wikipedia paragraph was rewritten by an LLM using a **two-pass generation s
 
 The final paired dataset (human + AI paragraphs) is publicly available:
 
-- 🤗 HuggingFace: [`gouwsxander/wikipedia-human-ai`](https://huggingface.co/datasets/gouwsxander/wikipedia-human-ai)
+- HuggingFace: [`gouwsxander/wikipedia-human-ai`](https://huggingface.co/datasets/gouwsxander/wikipedia-human-ai)
 - Local: [`/data/wikipedia.jsonl`](./data/wikipedia.jsonl)
 
 ---
@@ -97,7 +97,7 @@ results = classifier(texts)
 
 ---
 
-## 📊 Benchmark Performance
+## Benchmark Performance
 
 The model was evaluated on the [RAID benchmark](https://github.com/liamdugan/raid) training set to assess generalization across writing styles and model families.
 
