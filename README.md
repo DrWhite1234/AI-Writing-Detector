@@ -1,4 +1,4 @@
-# AI Slop Detector
+# AI Writing Detector
 
 > A end-to-end machine learning pipeline to detect AI-generated text — from data collection to a fine-tuned BERT classifier.
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-AI Slop Detector is a binary text classifier that distinguishes between **human-written** and **AI-generated** text. It is built as a LoRA adapter on top of `bert-base-cased` and achieves **96% validation accuracy** on a dataset of Wikipedia paragraphs and their AI-generated rewrites.
+AI Writing Detector is a binary text classifier that distinguishes between **human-written** and **AI-generated** text. It is built as a LoRA adapter on top of `bert-base-cased` and achieves **96% validation accuracy** on a dataset of Wikipedia paragraphs and their AI-generated rewrites.
 
 ---
 
